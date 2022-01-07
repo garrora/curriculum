@@ -39,7 +39,7 @@ body.dark {
 .header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 75px;
   padding: 0 1.5em;
   background-color: var(--bg-card-color);
@@ -336,6 +336,10 @@ body.dark {
     background-color: transparent;
     border: 1px solid var(--primary-color);
     
+}
+
+.card__image{
+  border-radius: var(--border-radius);
 }
 
 
